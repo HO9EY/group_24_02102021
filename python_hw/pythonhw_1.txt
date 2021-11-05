@@ -1,0 +1,39 @@
+#import math
+#1
+name1 = 'Python'
+#2
+name2 = 23
+#3
+name3 = 23.23
+#4
+name4 = bytes(8)
+#5
+name5 = [1,2,3,4]
+#6
+name6 = (1,2,3,4)
+#7
+name7 = set('python')
+#8
+name8 = frozenset('python')
+#9
+name9 = {'key': 12,
+         'num':23}
+#10
+print(name1,type(name1))
+print(name2,type(name2))
+print(name3,type(name3))
+print(name4,type(name4))
+print(name5,type(name5))
+print(name6,type(name6))
+print(name7,type(name7))
+print(name8,type(name8))
+print(name9,type(name9))
+#11
+name10 = 'Python'
+name11 = 'Python'
+name12 = name10 + name11
+print(name12)
+#12
+print(name12,name2)
+#13
+print(name12 + str(name2))

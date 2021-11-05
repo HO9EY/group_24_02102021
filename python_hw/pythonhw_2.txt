@@ -1,0 +1,126 @@
+import math
+#1
+item_1 = 1
+#2
+item_2 = 2
+#3
+result_sum = item_1 + item_2
+#4
+print('4_result_sum:',result_sum)
+#5
+result_sbtr = item_2 - item_1
+#6
+print('6_result_sbtr:',result_sbtr)
+#7
+result_multi = item_1 * item_2
+#8
+print('8_result_multi:',result_multi)
+#9
+result_exp = item_1 ** item_2
+#10
+print('10_result_exp:',result_exp)
+#11
+result_m_exp = math.pow(item_1,item_2)
+#12
+print('12_result_m_exp:',result_m_exp)
+#13
+result_s_root = item_1 ** 0.5
+#14
+print('14_result_s_root:',result_s_root)
+#15
+result_m_s_root = math.sqrt(item_1)
+#16
+print('16_result_m_s_root:',result_m_s_root)
+#17
+result_mp_s_root = math.pow(item_1,0.5)
+#18
+print('18_result_mp_s_root:',result_mp_s_root)
+#19
+item_1 = 11
+#20
+item_2 = 2
+#21
+result_division = item_1/item_2
+#22
+print('22_result_division:',result_division)
+#23
+result_m_floor = math.floor(result_division)
+#24
+print('24_result_m_floor:',result_m_floor)
+#25
+result_m_ceil = math.ceil(result_division)
+#26
+print('26_result_m_ceil:',result_m_ceil)
+#27
+result_int = int(result_division)
+#28
+print('28_result_int:',result_int)
+#29
+result_no_division_loss = item_1//item_2
+#30
+print('30_result_no_division_loss:',result_no_division_loss)
+#31
+result_division_loss = item_1 % item_2
+#32
+print('32_result_division_loss:',result_division_loss)
+#33
+item_3 = 1
+#34
+item_3+=10
+#35
+print('35_item_3+:',item_3)
+#36
+item_3-=5
+#37
+print('37_item_3-:',item_3)
+#38
+item_3*=3
+#39
+print('39_item_3*:',item_3)
+#40
+item_3/=2
+#41
+print('41_item_3/:',item_3)
+#42
+item_3 **=2
+#43
+print('43_item_3**:',item_3)
+#44
+item_3**=0.5
+#45
+print('45_item_3**0.5:',item_3)
+#46
+item_3%=item_3
+#47
+print('47_item_3%:',item_3)
+#48
+b_item_t = True
+#49
+b_item_f = False
+#50
+b_item_result_sum = b_item_t + b_item_f
+#51
+print('51_b_item_result_sum:',b_item_result_sum)
+#52
+b_item_result_subtr = b_item_t - b_item_f
+#53
+print('53_b_item_result_subtr:',b_item_result_subtr)
+#54
+b_item_result_multi = b_item_t * b_item_f
+#55
+print('55_b_item_result_multi:',b_item_result_multi)
+#56
+try:
+    b_item_result_division = b_item_t / b_item_f
+except ZeroDivisionError:
+    b_item_result_division = 'Error'
+#57
+    print('57_b_item_result_division:',b_item_result_division)
+#58
+b_item_1_int = int(b_item_t)
+#59
+print('59_b_item_1_int:',b_item_1_int)
+#60
+b_item_2_int = int(b_item_f)
+#61
+print('61_b_item_2_int:',b_item_2_int)
