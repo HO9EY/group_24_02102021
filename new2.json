@@ -3,5 +3,10 @@
 	"Patronymic":"Andreevich",
 	"Age":"23",
 	"Pets":"1",
-	"Salary":"1000$"
+	"Salary":"1000$",
+ 	"Favorite movie": "Illusion of deception",
+	"Favorite series": "Sherlock",
+	"Favorite food": "Pasta",
+	"Favorite season": "Summer",
+	"Country": "Italy"
 }
