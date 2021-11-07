@@ -46,6 +46,7 @@
 Ответ: нажать кнопку "Compare & pull request"
        нажать "Create pull request"
        нажать "Merge pull request"
+       нажать "Confirm merge"
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
 Ответ: git pull
