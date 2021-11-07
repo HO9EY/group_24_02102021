@@ -55,3 +55,10 @@ for item in range(range_count+1):
             if inner_item == 5:
                 inner_count = inner_item
         print('--inner_count=', inner_count)
+#13
+for item in range(20):
+    print('Step =', item)
+    if item > 7 & item < 12:
+        print('if_item =', item)
+        continue
+    print('End_iteration =', item)
